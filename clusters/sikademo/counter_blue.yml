@@ -22,7 +22,7 @@ spec:
     helm:
       releaseName: counter-blue
       valuesObject:
-        host: counter-blue.t-mobile.sikademo.com
+        host: counter-blue.k8s.sikademo.com
         EXTRA_TEXT: "🔵"
         FONT_COLOR: "#ffffff"
         BACKGROUND_COLOR: "blue"

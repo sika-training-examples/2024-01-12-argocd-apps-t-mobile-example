@@ -22,7 +22,7 @@ spec:
     helm:
       releaseName: counter
       valuesObject:
-        host: counter.t-mobile.sikademo.com
+        host: counter.k8s.sikademo.com
         EXTRA_TEXT: "T-Mobile"
         FONT_COLOR: "#ffffff"
         BACKGROUND_COLOR: "#e20074"
